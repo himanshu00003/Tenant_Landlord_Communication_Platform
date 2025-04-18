@@ -277,10 +277,7 @@ const Register = () => {
             </Link>
           </p>
           
-          {/* Database connection status indicator */}
-          <div className="mt-4">
-            <ConnectionStatus />
-          </div>
+         
         </div>
       </div>
     </div>
