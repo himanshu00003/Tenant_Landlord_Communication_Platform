@@ -12,14 +12,14 @@ const app = express();
 app.options(
   "*",
   cors({
-    origin: "http://localhost:5173",
+    origin: ["http://localhost:5173", "https://landloard-tanent-frontend.onrender.com"],
     credentials: true,
   })
 );
 
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: ["http://localhost:5173", "https://landloard-tanent-frontend.onrender.com"],
     credentials: true,
   })
 );
