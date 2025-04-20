@@ -25,7 +25,7 @@ router.post('/register', async (req, res) => {
 
     await user.save();
 
-    // Create token
+    // Create token 
     const token = jwt.sign(
       { userId: user._id },
       process.env.JWT_SECRET || 'your-secret-key',
@@ -46,7 +46,7 @@ router.post('/register', async (req, res) => {
   }
 });
 
-// Login
+// Login route
 router.post('/login', async (req, res) => {
   try {
     const { email, password } = req.body;
