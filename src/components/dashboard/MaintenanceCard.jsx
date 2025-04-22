@@ -77,6 +77,7 @@ const MaintenanceCard = () => {
   const toggleAutoRefresh = () => {
     setAutoRefreshEnabled(prev => !prev);
   };
+
   
   // Get the most recent 3 maintenance requests
   const recentRequests = requests
@@ -220,5 +221,6 @@ const MaintenanceCard = () => {
     </div>
   );
 };
+
 
 export default MaintenanceCard;
