@@ -1,6 +1,8 @@
 # Bridgelease - Tenant-Landlord Communication Platform
 
-A modern web application for managing tenant-landlord communications, maintenance requests, , and property management.
+A modern full-stack web application for managing tenant-landlord communication, maintenance requests, and property management. It features secure authentication, a role-based dashboard, real-time request tracking, and an intuitive user interface. Built using the MERN stack (MongoDB, Express.js, React.js, Node.js) with Tailwind CSS for responsive design.
+
+
 
 ## Deployment Guide
 
